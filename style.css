@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  border: none;
+}
+body {
+  background: linear-gradient(108deg, #c2e9fb 0%, #a1c4fd 100%);
+  display: grid;
+  place-content: center;
+  text-align: center;
+  height: 100vh;
+}
+body,
+button {
+  font-family: "DM Sans", sans-serif;
+}
+h1 {
+  font-family: Montserrat;
+  color: #34355b;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+p {
+  margin: 1.6rem 0 4.8rem 0;
+  color: rgba(52, 53, 91, 0.8);
+  font-size: 1.6rem;
+  line-height: 150%; /* 24px */
+}
+.screen1,
+.screen2 {
+  margin-bottom: 12rem;
+  max-width: 428px;
+  min-height: 274px;
+  background: #ffffff;
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  border-radius: 0.6rem;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+form {
+  display: flex;
+  justify-content: center;
+}
+.screen1 input {
+  display: flex;
+  width: 60px;
+  padding: 1.6rem;
+  border-radius: 4px 0px 0px 4px;
+  background: #dce2e9;
+  font-size: 1.4rem;
+}
+
+.screen1 button {
+  padding: 1.6rem;
+  border-radius: 0px 4px 4px 0px;
+  background: #7879f1;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.screen2 p {
+  color: #34355b;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+}
+.screen2 button {
+  padding: 1.6rem;
+  border-radius: 0px 4px 4px 0px;
+  background: #7879f1;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+button {
+  cursor: pointer;
+}
+.hide{
+    display: none;
+}
